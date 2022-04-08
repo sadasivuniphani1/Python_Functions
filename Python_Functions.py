@@ -23,6 +23,8 @@ def fn(a=1,b=5):
 if __name__ == "__main__":
     fn()
 
+#Multiple Keyword arguments    
+    
 def fn(a,b):
     f = a + b
     return print(f)
@@ -38,6 +40,8 @@ def fn(**kwargs):
 if __name__ == "__main__":
     fn(a=9,b=7,g=8)
 
+ #multiple arguments   
+
 def fn(*args):
   f=0
   for i in args:
@@ -45,6 +49,8 @@ def fn(*args):
     print(f)
 if __name__ == "__main__":
     fn(6,7,7,7)
+    
+#Passing hardcode List and add the elements     
 
 def fn(*args):
   f=0
@@ -59,6 +65,8 @@ if __name__ == "__main__":
   print(type(x))
   print(x)
   fn(*x)
+    
+#Passing input List and add the elements     
 
 def fn(*args):
   f=0
